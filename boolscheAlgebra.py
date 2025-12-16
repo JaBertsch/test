@@ -1,9 +1,3 @@
-
-A = False
-B = True
-C = False
-D = False
-
-ergebnis = (not A or B) or not (C and D) or (C or B)
-
-print(ergebnis)
+temperatur_c = input("Geben sie eine Temperatur ein:")
+zu kalt = temperatur_c < 20.0
+zu heiß = temperatur_c > 80.0

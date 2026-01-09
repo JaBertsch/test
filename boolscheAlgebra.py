@@ -1,4 +1,13 @@
-temperatur_c = float(input("Geben sie eine Temperatur ein:"))
+print(bool(10 < 3))
+print(bool(5 == 5))
+print(bool(7 != 8))
+print(bool(12.5 >= 12.5))
+print(bool("S235" == "S355"))
+print(type(10 < 3))
+
+temperatur_c = 85.0
 zu_kalt = temperatur_c < 20.0
-zu_heiß = temperatur_c > 80.0
-print(f"zu_kalt: (zu_kalt)")
+zu_heiss = temperatur_c > 80.0
+zu_kalt = False
+zu_heiss = False
+print(input("Geben sie eine Temperatur ein:"))

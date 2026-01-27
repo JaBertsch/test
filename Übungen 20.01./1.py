@@ -5,6 +5,6 @@ if drehzahl >= 3000 :
 
 systemdruck = float(input("Eingabe Hydraulikdruck : "))
 if systemdruck < 50:
-    print("❌ Fehler: Druck zu niedrig ({druck}bar). Pumpe prüfen!")
+    print(f"❌ Fehler: Druck zu niedrig ({systemdruck} bar). Pumpe prüfen!")
 else:
-    print("✅ Druck OK ({druck} bar). System betriebsbereit.")
+    print(f"✅ Druck OK ({systemdruck} bar). System betriebsbereit.")

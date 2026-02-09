@@ -14,12 +14,16 @@ print("=" * 47)
 
 print(f"{"Gewinde":<8}|", end="")
 for zugfestigkeit in zugfestigkeiten:
-    print(f"{zugfestigkeit:>9} [Nm] |", end="")
+    print(f"{zugfestigkeit:>5} [Nm] |", end="")
 
 print()
 print("─" * 8 + "|" + "─" * 11 + "|" + "─" * 11 + "|" + "─" * 11 + "|")
 
 for durchmesser in nenndurchmesser_schrauben:
     print(f"M{durchmesser}      |", sep="")
+
+for m_a in nenndurchmesser_schrauben:
+    nenndurchmesser_schrauben = int(m_a)  # Durchmesser aus "M6" → 6
+    print(f"{m_a:<8}|", end="")
 
 

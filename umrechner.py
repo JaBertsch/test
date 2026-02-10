@@ -21,11 +21,11 @@ while True:
         if operator == "subtraktion" or operator == "s" :
             ergebnis = zahl1 - zahl2
         else: 
-            if operator == "multiplikation" or operator == "m" : #funktioniert nicht => "m" die ganze zeit konstant
+            if operator == "multiplikation" or operator == "m" : # or "m" funktioniert nicht => "m" die ganze zeit konstant
                 ergebnis = zahl1 * zahl2
             else:
                 if operator == "division" or operator == "d":
-                    ergebnis = zahl1 // zahl2
+                    ergebnis = zahl1 / zahl2
                 else:
                     print("operation kann nicht ausgeführt werden")
 
